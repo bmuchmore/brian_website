@@ -5,7 +5,7 @@ abstract = "Lacunar Infarcts in 10 minutes or Less."
 abstract_short = ""
 event = "Student Pimping"
 event_url = "https://www.meetup.com/portland-r-user-group/"
-location = "McClure, Portland, Oregon"
+location = "McClure"
 
 selected = true
 math = true
