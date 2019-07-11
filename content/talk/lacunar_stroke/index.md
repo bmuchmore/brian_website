@@ -1,7 +1,7 @@
 +++
 date = "2017-09-14T00:00:00"
 title = "A brief talk"
-abstract = "Join me for a workshop to get you up and running with your own personal website. If you are looking to start your own site, come learn how to do it for free using using R, RStudio, and the blogdown R package."
+abstract = "Lacunar Infarcts in 10 minutes or Less."
 abstract_short = ""
 event = "Portland R User Group Workshop"
 event_url = "https://www.meetup.com/portland-r-user-group/"
