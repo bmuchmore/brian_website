@@ -1,9 +1,9 @@
 +++
-date = "2017-09-14T00:00:00"
+date = "2019-07-10T00:00:00"
 title = "A brief talk"
 abstract = "Lacunar Infarcts in 10 minutes or Less."
 abstract_short = ""
-event = "Portland R User Group Workshop"
+event = "Student Pimping"
 event_url = "https://www.meetup.com/portland-r-user-group/"
 location = "Oregon Health & Science University, Portland, Oregon"
 
