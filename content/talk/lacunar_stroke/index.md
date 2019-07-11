@@ -1,11 +1,12 @@
 +++
-date = "2017-09-14T00:00:00"
-title = "Up & Running with blogdown"
-abstract = "Join me for a workshop to get you up and running with your own personal website. If you are looking to start your own site, come learn how to do it for free using using R, RStudio, and the blogdown R package."
+date = "2019-07-12"
+title = "Lacunar Infarcts in 10 minutes or Less"
+abstract = "Hi everyone :)"
 abstract_short = ""
-event = "Portland R User Group Workshop"
+event = "A brief talk"
 event_url = "https://www.meetup.com/portland-r-user-group/"
-location = "Oregon Health & Science University, Portland, Oregon"
+location = "McClure 6"
+
 
 selected = true
 math = true
