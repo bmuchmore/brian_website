@@ -5,7 +5,7 @@ abstract = "Lacunar Infarcts in 10 minutes or Less."
 abstract_short = ""
 event = "Portland R User Group Workshop"
 event_url = "https://www.meetup.com/portland-r-user-group/"
-location = "McClure 6"
+location = "McClure Resident's Lounge"
 
 selected = true
 math = true
