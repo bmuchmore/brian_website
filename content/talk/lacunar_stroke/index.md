@@ -1,12 +1,11 @@
 +++
-date = "2019-07-12"
+date = "2019-07-12T00:00:00"
 title = "Lacunar Infarcts in 10 minutes or Less"
-abstract = "Hi everyone :)"
+abstract = "Hi everyone"
 abstract_short = ""
 event = "A brief talk"
 event_url = "https://www.meetup.com/portland-r-user-group/"
 location = "McClure 6"
-
 
 selected = true
 math = true
