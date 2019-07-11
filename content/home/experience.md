@@ -18,27 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Researcher"
+  company = "Genyo"
+  company_url = "https://www.genyo.es/"
+  location = "Granada, Spain"
+  date_start = "2015-01-01"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Helios core team member
+  * Bioinformatics lead for flow cytometry analysis in the PRECISESADS project
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Researcher"
+  company = "Laboratory of Translational Genomics at NIH"
+  company_url = "https://dceg.cancer.gov/about/organization/programs-hgp/ltg"
+  location = "Bethesda, MD"
+  date_start = "2009-01-01"
+  date_end = "2012-12-31"
+  description = """Functional investigation of GWAS cancer signals associated with HCV-related traits and bladder cancer."""
 
 +++
