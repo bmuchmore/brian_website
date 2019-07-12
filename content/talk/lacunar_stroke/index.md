@@ -4,7 +4,7 @@ title = "A brief talk"
 abstract = "Lacunar Infarcts in 10 minutes or Less."
 abstract_short = ""
 event = "Student Pimping"
-event_url = "https://www.meetup.com/portland-r-user-group/"
+event_url = "https://heuristic-khorana-3913a6.netlify.com"
 location = "McClure"
 
 selected = true

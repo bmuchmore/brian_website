@@ -1,24 +1,24 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1562810207506.000,
+    "created" : 1562900324061.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "630730709",
-    "id" : "5B7FEE17",
-    "lastKnownWriteTime" : 1562810531,
-    "last_content_update" : 1562810531649,
+    "hash" : "3856956402",
+    "id" : "E173497A",
+    "lastKnownWriteTime" : 1562900573,
+    "last_content_update" : 1562900573693,
     "path" : "C:/Users/MediaPC/Desktop/brian_website/content/talk/lacunar_stroke/index.md",
     "project_path" : "content/talk/lacunar_stroke/index.md",
     "properties" : {
-        "cursorPosition" : "8,11",
+        "cursorPosition" : "6,58",
         "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 5,
+    "relative_order" : 1,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"
