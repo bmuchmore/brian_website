@@ -9,11 +9,19 @@ featured: true
 publication: "*Nature*"
 image_preview: ""
 math: false
+
 url_code: ""
 url_dataset: ""
 url_pdf: "pdf/sort1.pdf"
 url_project: ""
 url_slides: ""
 url_video: ""
+
+links:
+  - icon_pack: 
+    icon: 
+    name: HTML
+    url: "https://www.ncbi.nlm.nih.gov/pubmed/20686566"
+
 ---
 

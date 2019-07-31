@@ -1,0 +1,210 @@
+---
+
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: ["xaringan-themer.css", "iframe.css"]
+    nature:
+      countdown: 30000
+      highlightLines: true
+
+---
+
+class: inverse, center, middle
+background-image: url(pictures/cover.jpeg)
+background-size: cover
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+mono_accent_inverse(base_color = "#3C989E")
+```
+
+### <code><font color="red">A Very Personal History of Uromodulin</font></code>
+##### <code><font color="red">[Brian Muchmore | UVM Nephrology | 08/02/2019]</font></code>
+
+---
+
+class: inverse, center, middle
+background-image: url(pictures/dad.png)
+background-size: 73%
+
+---
+
+# What is a lacunar stroke?
+
+* Small (0.2 to 15 mm in diameter) non-cortical infarcts    
+
+* Infarcts result in a small cavity, or lacune
+
+* Caused by occlusion of a single penetrating branch of a large cerebral artery 
+
+* Arise at acute angles from the
+  + Large arteries of the circle of Willis
+  + Stem of the MCA
+  + Stem of the basilar 
+  
+* Thus, most lacunes occur in the
+  + Basal ganglia (putamen, globus pallidus, thalamus, caudate)
+  + Subcortical white matter (internal capsule and corona radiata)
+  + Pons
+
+---
+
+background-image: url(pictures/lacunar.jpg)
+background-position: 50% 100%
+background-size: 30%
+
+# What is the etiology?
+
+* Lipohyalinosis  
+
+* Microatheroma
+
+* Tiny emboli (never proven pathologically)
+
+* Endothelial dysfunction 
+
+---
+
+background-image: url(pictures/race.jpg)
+background-position: 50% 100%
+background-size: 50%
+
+# What is the epidemiology?
+
+* Incidence is around 25-50 per 100,000 in the population
+
+* Approximately 25% of all ischemic strokes
+
+* Higher incidence among African-American and Hispanics
+
+---
+
+background-image: url(pictures/homocysteine.png)
+background-position: 100% 100%
+background-size: 25%
+
+# What are the risk factors and associations? 
+
+* Chronic vasculopathy associated with systemic hypertension
+
+* Diabetes mellitus 
+
+* Smoking
+
+* Age
+
+* LDL
+
+* Genetics (for example APOE e4 carriers)
+
+* Hyperhomocysteinemia (for example, a *MTHFR* mutation). In addition
+  + Developmental delay
+  + Marfanoid appearance
+  + Osteoporosis
+  + Ocular abnormalities
+  + Thromboembolic disease
+  + Severe premature atherosclerosis
+
+---
+
+background-image: url(pictures/mouse.jpg)
+background-position: 100% 50%
+background-size: 45%
+
+# Clinically ABSENT signs 
+
+* Lack of cortical signs
+  + Aphasia
+  + Agnosia
+  + Neglect
+  + Apraxia
+  + Hemianopsia
+  
+<br>
+  
+* Also typically absent
+  + Monoplegia
+  + Stupor
+  + Coma
+  + Loss of consciousness
+  + Seizures
+
+---
+
+background-image: url(pictures/time.png)
+background-position: 100% 100%
+background-size: 40%
+
+# Clinically PRESENT signs 
+
+* Unlike large artery brain ischemia, symptoms usually develop over hours/days
+  + A stuttering course similar to large artery thrombosis can also ensue
+  
+* More than 20 lacunar syndromes have been described 
+
+* Five have been validated as being clinically predictive of radiologic lacunes
+  + Pure motor hemiparesis
+  + Pure sensory stroke
+  + Ataxic hemiparesis
+  + Sensorimotor stroke
+  + Dysarthria-clumsy hand syndrome
+
+---
+
+background-image: url(pictures/ct.jpg)
+background-position: 50% 100%
+background-size: 25%
+
+# Diagnosis
+
+* Clinical syndrome that is consistent with CT or MRI
+
+* CT has low sensitivity for detecting lacunes (30 to 44 percent)
+
+* MRI is better
+
+* Both have difficulty differentiating between acute and chronic lesions
+
+* DWI is great if multiple infarcts of different ages are present
+  + DWI overestimates size by up to 40%
+
+---
+
+background-image: url(pictures/thrombectomy.jpg)
+background-position: 50% 100%
+background-size: 50%
+
+# Treatment
+
+* Lacunar stroke specific treatment does not exist
+
+* Prevention is the best treatment
+
+* Follow current stroke guidelines
+  + Thrombolysis
+  + Thrombectomy
+  + Also Aspirin, VTE prophylaxis, statins, BP management, living zen
+
+---
+
+<iframe src="https://clinicaltrials.gov/ct2/results?cond=&term=uromodulin&cntry=&state=&city=&dist=" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+
+---
+
+# References
+
+* AV Muchmore and JM Decker. **Uromodulin: a unique 85-kilodalton immunosuppressive glycoprotein isolated from urine of pregnant women.** *Science* 02 Aug 1985: Vol. 229, Issue 4712, pp. 479-481
+
+* Devuyst O, Olinger E and Rampoldi L. **Uromodulin: from physiology to rare and complex kidney disorders.** *Nat Rev Nephrol.* 017 Sep;13(9):525-544.
+
+* Anthony Bleyer. **Autosomal dominant tubulointerstitial kidney disease (medullary cystic kidney disease).** UpToDate. Waltham, MA: UpToDate Inc. https://www.uptodate.com (Accessed on July 31st, 2019.)
+
+* Pietro A. A. Canetta. **Nephrotic syndrome in adults.** DynaMed Plus. Ipswich, MA: EBSCO Information Services. http://www.www.dynamed.com (Accessed on July 31st, 2019.)
+
+
+  
+
+
