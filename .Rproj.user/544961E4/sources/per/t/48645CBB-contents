@@ -1,12 +1,12 @@
 +++
 
-date = "2019-07-10T00:00:00"
-title = "A brief talk"
+date = "2019-07-10T13:00:00"
+title = "Also a brief talk"
 abstract = "Lacunar Infarcts in 10 Minutes or Less."
 abstract_short = ""
 event = "Student Pimping"
 event_url = "https://serene-bardeen-918b0b.netlify.com/"
-location = "McClure"
+location = "McClure 6"
 
 selected = true
 math = true
@@ -30,10 +30,4 @@ image = ""
 caption = ""
 
 +++
-
-Jeff, if you are in the audience, this one is for you:
-
-Doctor: I’ve got very bad news – you’ve got cancer and Alzheimer’s.  
-
-Patient: Well, at least I don’t have cancer.
 

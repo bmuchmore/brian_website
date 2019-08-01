@@ -1,12 +1,12 @@
 +++
 
-date = "2019-07-02T01:00:00"
-title = "Also a brief talk"
+date = "2019-07-02T13:00:00"
+title = "A brief talk"
 abstract = "A Very Personal History of Uromodulin"
 abstract_short = ""
 event = "Friday Journal Club"
 event_url = "https://www.google.com"
-location = "Nephrology"
+location = "Nephrology Clinic"
 
 selected = true
 math = true
