@@ -1,16 +1,16 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1564617544627.000,
+    "created" : 1564619956619.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "982798838",
-    "id" : "D89DDA23",
-    "lastKnownWriteTime" : 1564619987,
-    "last_content_update" : 1564619987884,
-    "path" : "C:/Users/MediaPC/Desktop/brian_website/content/talk/uromodulin/index.md",
-    "project_path" : "content/talk/uromodulin/index.md",
+    "hash" : "1281345610",
+    "id" : "48645CBB",
+    "lastKnownWriteTime" : 1564619993,
+    "last_content_update" : 1564619993252,
+    "path" : "C:/Users/MediaPC/Desktop/brian_website/content/talk/lacunar_stroke/index.md",
+    "project_path" : "content/talk/lacunar_stroke/index.md",
     "properties" : {
         "cursorPosition" : "1,0",
         "scrollLine" : "0"
@@ -18,7 +18,7 @@
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 2,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "markdown"
