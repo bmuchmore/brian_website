@@ -1,8 +1,8 @@
 +++
 
 date = "2019-07-10T13:00:00"
-title = "Also a brief talk"
-abstract = "Lacunar Infarcts in 10 Minutes or Less."
+title = "Lacunar Infarcts in 10 Minutes or Less"
+abstract = ""
 abstract_short = ""
 event = "Student Pimping"
 event_url = "https://serene-bardeen-918b0b.netlify.com/"

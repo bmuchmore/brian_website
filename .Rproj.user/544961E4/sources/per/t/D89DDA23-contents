@@ -1,11 +1,11 @@
 +++
 
 date = "2019-07-02T13:00:00"
-title = "A brief talk"
-abstract = "A Very Personal History of Uromodulin"
+title = "A Very Personal History of Uromodulin"
+abstract = ""
 abstract_short = ""
 event = "Friday Journal Club"
-event_url = "https://www.google.com"
+event_url = "https://vigorous-borg-ae37fa.netlify.com/#1"
 location = "Nephrology Clinic"
 
 selected = true
