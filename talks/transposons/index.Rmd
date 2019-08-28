@@ -1,0 +1,155 @@
+---
+
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: ["xaringan-themer.css", "iframe.css"]
+    nature:
+      countdown: 30000
+      highlightLines: true
+
+---
+
+class: inverse, center, middle
+background-image: url(pictures/jumper.jpg)
+background-size: cover
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+mono_accent_inverse(base_color = "#3C989E")
+```
+
+### <code><font color="red">Transposons in Neuropsychiatric Disease</font></code>
+##### <code><font color="red">[Brian Muchmore | UVM Psychiatry | 08/29/2019]</font></code>
+
+---
+
+<iframe src="https://profiles.nlm.nih.gov/ps/access/LLBBBK.pdf" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+
+
+---
+
+background-image: url(pictures/barb.jpg)
+background-position: 50% 100%
+background-size: 37%
+
+# A Brief History of Transposons
+
+* In the late 1940s, Barbara McClintock discovered that some genes could be mobile.
+
+* Her studies of chromosome breakage in maize led her to discover a chromosome-breaking locus that could change its position within a chromosome. 
+
+* Depending on where they inserted into a chromosome these mobile elements could reversibly alter the expression of other genes. 
+
+* Although their existence was accepted relatively soon after by maize geneticists, the widespread nature of mobile genetic elements and the implications of McClintock’s discovery took decades to be widely recognized.
+
+---
+
+background-image: url(pictures/ten_things.jpg)
+background-position: 50% 95%
+background-size: 75%
+
+# The Basics
+
+---
+
+background-image: url(pictures/ancestry.png)
+background-position: 50% 95%
+background-size: 50%
+
+# The Genetics
+
+* Conserved throughout evolution.
+
+---
+
+background-image: url(pictures/inheritance.jpg)
+background-position: 50% 95%
+background-size: 82%
+
+# Inheritance
+
+---
+
+# The Agouti Phenomenon
+
+.pull-left[
+<img src="pictures/agouti.png" width=800 height=400>
+]
+
+.pull-right[
+<img src="pictures/agouti_too.jpg" width=800 height=400>
+]
+
+---
+
+<iframe src="https://www.nature.com/articles/s41380-018-0129-y.pdf" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+
+---
+
+<iframe src="http://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chr11%3A113393171%2D113491833&hgsid=752310671_wve8LZluWxwvDTshZdqJIyyCR77q" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+
+---
+
+Recent research by neuroscientist Fred Gage and colleagues at the University of California (UC), San Diego, has shown that one of the most common types of jumping gene in people, called L1, is particularly abundant in human stem cells in the brain that ultimately differentiate into neurons and plays an important role in regulating neuronal development and proliferation. Although Gage and colleagues have found that increased L1 is associated with mental disorders such as Rett syndrome, a form of autism, and a neurological motor disease called Louis-Bar syndrome, "no one had looked very carefully" to see if the gene might also contribute to schizophrenia, he says. 
+
+---
+
+<iframe src="https://www.cell.com/neuron/fulltext/S0896-6273(13)01005-2" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+
+---
+
+<iframe src="https://clinicaltrials.gov/ct2/results?cond=Schizophrenia&Search=Apply&recrs=d&age_v=&gndr=&type=&rslt=" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
+
+---
+
+# References
+
+* Barbara McClintock. **Controlling elements and the gene.** *Cold Spring Harb Symp Quant Biol.* 1956
+
+* Sandeep Ravindran. **Barbara McClintock and the discovery of jumping genes.** *PNAS.* 2012
+
+* Guillaume Bourque et. al. **Ten things you should know about transposable elements.** *Genome Biology.* 2018
+
+* Özgen Deniz et. al. **Regulation of transposable elements by DNA modifications.** *Nature Reviews Genetics.* 2019
+
+* Miki Bundo et. al. **Increased L1 Retrotransposition in the Neuronal Genome in Schizophrenia.** *Neuron* 2014
+
+* Nicole G. Coufal et. al. **L1 retrotransposition in human neural progenitor cells.** *Nature.* 2009
+
+* Schizophrenia Working Group of the Psychiatric Genomics Consortium. **Biological insights from 108 schizophrenia-associated genetic loci.** *Nature.* 2014
+
+* Masaki Nishioka et. al. **Somatic mutations in the human brain: implications for psychiatric research.** *Molecular Psychiatry.* 2019
+
+---
+
+# References Continued
+
+* Richard G. Hunter et. al. **Stress and the dynamic genome: Steroids, epigenetics, and the transposome.** *PNAS.* 2014
+
+* Pastuzyn ED et. al. **The Neuronal Gene Arc Encodes a Repurposed Retrotransposon Gag Protein that Mediates Intercellular RNA Transfer.** *Cell.* 2018
+
+---
+
+background-image: url(pictures/corn.jpg)
+background-position: 50% 95%
+background-size: 70%
+
+<ru-blockquote>"The ability of a cell to sense these broken ends, to direct them towards each other, and then to unite them so that the union of the two DNA strands is correctly oriented, is a particularly revealing example of the sensitivity of cells to all that is going on within them. They make wise decisions and act on them."</ru-blockquote>
+
+<ru-blockquote>-Barbara McClintock</ru-blockquote>
+
+
+
+
+
