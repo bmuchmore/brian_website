@@ -121,30 +121,23 @@ Transposition is a potent mechanism of genome expansion and mutagenicity:
 
 ---
 
-<iframe src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2909034/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-    Your browser doesn't support iframes
-</iframe>
-
----
-
-# Synopsis
-
-* In 2009, it was shown that TEs are particularly abundant in human stem cells in the brain that become neurons.
-	+ Furthermore, the TEs were shown to play an important role in regulating neuronal development and proliferation. 
-	
-	+ At this time, it was recognized that TEs played an important role in Rett syndrome, a form of autism and Louis-Bar syndrome (a neurological motor disease).
-	
----
-
 <iframe src="https://www.cell.com/neuron/fulltext/S0896-6273(13)01005-2" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
     Your browser doesn't support iframes
 </iframe>
 
 ---
 
-# Synopsis
+# In 2009...
 
-* In 2014, the link between TEs and schizophrenia was established:
+* It was shown that TEs are particularly abundant in human stem cells in the brain that become neurons.
+	+ Furthermore, the TEs were shown to play an important role in regulating neuronal development and proliferation. 
+	
+	+ At this time, it was recognized that TEs played an important role in Rett syndrome, a form of autism and Louis-Bar syndrome (a neurological motor disease).
+	
+
+# In 2014...
+
+* The link between TEs and schizophrenia was established:
 
   + Extracted DNA from the neurons of deceased schizophrenics were compared to healthy people and there was a 1.1-fold increase in TEs in schizophrenics.
   
