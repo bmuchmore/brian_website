@@ -5,7 +5,7 @@ title = "Transposons in Neuropsychiatric Disease"
 abstract = ""
 abstract_short = ""
 event = "Psychiatry Presentation"
-event_url = "https://vigorous-borg-ae37fa.netlify.com/#1"
+event_url = "https://frosty-kepler-236aa6.netlify.com/#1"
 location = "Psychiatry Consult Room"
 
 selected = true

@@ -24,53 +24,65 @@ mono_accent_inverse(base_color = "#3C989E")
 
 ---
 
-<iframe src="https://profiles.nlm.nih.gov/ps/access/LLBBBK.pdf" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-    Your browser doesn't support iframes
-</iframe>
+class: center, middle
 
+# TE = Transposable Element
+
+# Transposable Element = TE
 
 ---
 
 background-image: url(pictures/barb.jpg)
-background-position: 50% 100%
-background-size: 37%
+background-position: 50% 95%
+background-size: 25%
 
 # A Brief History of Transposons
 
-* In the late 1940s, Barbara McClintock discovered that some genes could be mobile.
+* In the late 1940s, Barbara McClintock discover a chromosome-breaking locus in maize that could change its position within a chromosome...jumping genes!
 
-* Her studies of chromosome breakage in maize led her to discover a chromosome-breaking locus that could change its position within a chromosome. 
+* Although maize geneticists kept it real and were not too sexist, it took some time before others understood the funk was not fake. On the hostility and delayed recognition she faced:
+  >"It didn’t bother me, I just knew I was right."
 
-* Depending on where they inserted into a chromosome these mobile elements could reversibly alter the expression of other genes. 
+* She won an *unshared* Nobel Prize in Physiology or Medicine in 1983.
 
-* Although their existence was accepted relatively soon after by maize geneticists, the widespread nature of mobile genetic elements and the implications of McClintock’s discovery took decades to be widely recognized.
+---
+
+<iframe src="https://profiles.nlm.nih.gov/ps/access/LLBBBK.pdf" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
 
 ---
 
 background-image: url(pictures/ten_things.jpg)
 background-position: 50% 95%
-background-size: 75%
+background-size: 60%
 
-# The Basics
+# TEs do a lot
 
----
+* Retrotransposons mobilize through a ‘copy-and-paste’ mechanism.
 
-background-image: url(pictures/ancestry.png)
-background-position: 50% 95%
-background-size: 50%
-
-# The Genetics
-
-* Conserved throughout evolution.
+* DNA transposons are mobilized via a ‘cut-and-paste’ mechanism.
 
 ---
 
-background-image: url(pictures/inheritance.jpg)
+background-image: url(pictures/corn.jpg)
 background-position: 50% 95%
-background-size: 82%
+background-size: 57%
 
-# Inheritance
+> The genome may be viewed as an ecosystem inhabited by diverse communities of TEs, which seek to propagate and multiply through sophisticated interactions with each other and with other components of the cell. These interactions encompass processes familiar to ecologists, such as parasitism, cooperation, and competition. Thus, it is perhaps not surprising that TEs are rarely, if ever, randomly distributed in the genome. TEs exhibit various levels of preference for insertion within certain features or compartments of the genome. These are often guided by opposite selective forces, a balancing act of facilitating future propagation while mitigating deleterious effects on host cell function.
 
+---
+
+background-image: url(pictures/evolution.png)
+background-position: 50% 95%
+background-size: 57%
+
+# Evolution
+
+Transposition is a potent mechanism of genome expansion and mutagenicity:
+  + Half of *D. melanogaster* phenotypic mutants are caused by TEs.
+  + TEs account for 10–15% of all inherited mutant phenotypes in mice.
+  
 ---
 
 # The Agouti Phenomenon
@@ -83,11 +95,23 @@ background-size: 82%
 <img src="pictures/agouti_too.jpg" width=800 height=400>
 ]
 
+* By the way, TEs not only to propagate vertically but also horizontally between individuals and species i.e. between host species, pathogens and parasites.
+
 ---
 
-<iframe src="https://www.nature.com/articles/s41380-018-0129-y.pdf" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-    Your browser doesn't support iframes
-</iframe>
+# Structural Importance
+
+* TEs can promote genomic structural variation long after they have lost the capacity to mobilize:
+
+  + Transposition causes genome rearrangement.
+  
+  + TE microhomology predispose to template switching during repair of replication errors.
+  
+  + Recombination events can occur between the highly homologous regions dispersed by related TEs at distant genomic positions.
+  
+  + TEs also play a role in V(D)J recombination (via *Rag1* and *Rag2*), telomere maintenance and centromere stability.
+
+# To reiterate, half our genome are TEs
 
 ---
 
@@ -97,8 +121,19 @@ background-size: 82%
 
 ---
 
-Recent research by neuroscientist Fred Gage and colleagues at the University of California (UC), San Diego, has shown that one of the most common types of jumping gene in people, called L1, is particularly abundant in human stem cells in the brain that ultimately differentiate into neurons and plays an important role in regulating neuronal development and proliferation. Although Gage and colleagues have found that increased L1 is associated with mental disorders such as Rett syndrome, a form of autism, and a neurological motor disease called Louis-Bar syndrome, "no one had looked very carefully" to see if the gene might also contribute to schizophrenia, he says. 
+<iframe src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2909034/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe>
 
+---
+
+# Synopsis
+
+* In 2009, it was shown that TEs are particularly abundant in human stem cells in the brain that become neurons.
+	+ Furthermore, the TEs were shown to play an important role in regulating neuronal development and proliferation. 
+	
+	+ At this time, it was recognized that TEs played an important role in Rett syndrome, a form of autism and Louis-Bar syndrome (a neurological motor disease).
+	
 ---
 
 <iframe src="https://www.cell.com/neuron/fulltext/S0896-6273(13)01005-2" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
@@ -107,9 +142,54 @@ Recent research by neuroscientist Fred Gage and colleagues at the University of 
 
 ---
 
-<iframe src="https://clinicaltrials.gov/ct2/results?cond=Schizophrenia&Search=Apply&recrs=d&age_v=&gndr=&type=&rslt=" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+# Synopsis
+
+* In 2014, the link between TEs and schizophrenia was established:
+
+  + Extracted DNA from the neurons of deceased schizophrenics were compared to healthy people and there was a 1.1-fold increase in TEs in schizophrenics.
+  
+  + Injected pregnant mice with a chemical that simulates viral infection had Offspring higher levels of TEs in their brain tissue. 
+	
+  + Exposed infant macaques to a hormone associated with increased schizophrenia risk and the grown macaques had higher levels of TEs.
+	
+---
+
+background-image: url(pictures/inheritance.jpg)
+background-position: 50% 95%
+background-size: 28%
+
+# The Specific Takeaways
+
+* Established environmental triggers for schizophrenia caused genetic changes in real-time via TEs.
+
+* TEs are more active in the brain of patients with neuropsychiatric diseases.
+
+* Correlation is not causation but the mechanism seems clear.
+
+* TEs likely provide vibrant cognitive diversity:
+	+ Helps humans respond to changing environmental conditions.
+	+ Contributes to extraordinary intellectual outliers.
+	+ Also contributes to schizophrenia.
+
+---
+
+<iframe src="https://www.cell.com/cell/fulltext/S0092-8674(17)31504-0" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
     Your browser doesn't support iframes
 </iframe>
+
+---
+
+> The ability of a cell to sense these broken ends, to direct them towards each other, and then to unite them so that the union of the two DNA strands is correctly oriented, is a particularly revealing example of the sensitivity of cells to all that is going on within them. They make wise decisions and act on them.
+
+> -Barbara McClintock
+
+.pull-left[
+<img src="pictures/barb2.jpg" width=800 height=400>
+]
+
+.pull-right[
+<img src="pictures/barb3.jpg" width=800 height=400>
+]
 
 ---
 
@@ -123,31 +203,23 @@ Recent research by neuroscientist Fred Gage and colleagues at the University of 
 
 * Özgen Deniz et. al. **Regulation of transposable elements by DNA modifications.** *Nature Reviews Genetics.* 2019
 
-* Miki Bundo et. al. **Increased L1 Retrotransposition in the Neuronal Genome in Schizophrenia.** *Neuron* 2014
-
 * Nicole G. Coufal et. al. **L1 retrotransposition in human neural progenitor cells.** *Nature.* 2009
 
-* Schizophrenia Working Group of the Psychiatric Genomics Consortium. **Biological insights from 108 schizophrenia-associated genetic loci.** *Nature.* 2014
+* Miki Bundo et. al. **Increased L1 Retrotransposition in the Neuronal Genome in Schizophrenia.** *Neuron* 2014
 
-* Masaki Nishioka et. al. **Somatic mutations in the human brain: implications for psychiatric research.** *Molecular Psychiatry.* 2019
+* Schizophrenia Working Group of the Psychiatric Genomics Consortium. **Biological insights from 108 schizophrenia-associated genetic loci.** *Nature.* 2014
 
 ---
 
 # References Continued
 
+* Masaki Nishioka et. al. **Somatic mutations in the human brain: implications for psychiatric research.** *Molecular Psychiatry.* 2019
+
 * Richard G. Hunter et. al. **Stress and the dynamic genome: Steroids, epigenetics, and the transposome.** *PNAS.* 2014
 
 * Pastuzyn ED et. al. **The Neuronal Gene Arc Encodes a Repurposed Retrotransposon Gag Protein that Mediates Intercellular RNA Transfer.** *Cell.* 2018
 
----
 
-background-image: url(pictures/corn.jpg)
-background-position: 50% 95%
-background-size: 70%
-
-<ru-blockquote>"The ability of a cell to sense these broken ends, to direct them towards each other, and then to unite them so that the union of the two DNA strands is correctly oriented, is a particularly revealing example of the sensitivity of cells to all that is going on within them. They make wise decisions and act on them."</ru-blockquote>
-
-<ru-blockquote>-Barbara McClintock</ru-blockquote>
 
 
 
