@@ -1,0 +1,300 @@
+---
+title: "Brian Muchmore's resume"
+author: Brian Muchmore
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    self_contained: false
+---
+
+
+
+
+
+Aside
+================================================================================
+
+![Brian Muchmore](https://brianmuchmore.com/authors/admin/avatar_hu78316369a6591e23ad8ee619d7773d6e_13319_250x250_fill_q90_lanczos_center.jpg){width=40%}
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> bmuchmore@gmail.com
+- <i class="fa fa-envelope"></i> brian.muchmore@med.uvm.edu
+- <i class="fa fa-github"></i> [github.com/bmuchmore](https://github.com/bmuchmore)
+- <i class="fa fa-phone"></i> 240-408-6061
+
+
+
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- 10,000+ hours of laboratory bench work experience.
+
+- 10,000+ hours of data science experience with working proficiency in R, Bash, and Python.
+
+- Professional proficiency using Docker and Guacamole.
+
+
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Last updated on `r Sys.Date()`.
+
+
+
+
+
+Main
+================================================================================
+
+Brian Muchmore {#title}
+--------------------------------------------------------------------------------
+
+### Current MD candidate at the University of Vermont's Larner College of Medicine.
+
+
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Bates College
+
+BA in Russian Studies
+
+Lewiston, Maine
+
+2002-2005
+
+Graduated after six semesters of classes.                                    
+
+### Nevskii Institute of Language and Culture
+
+N/A
+
+St. Petersburg, Russia
+
+2004
+
+Course work in Russian language, economics and history while living with a Russian family.
+
+### Odessa Language Study Center
+
+N/A
+
+Odessa, Ukraine 
+
+2005
+
+The Institute is a full EAQUALS member and evaluated my Russian language level as C1.  
+
+### University of Maryland
+
+BSc. 
+
+College Park, Maryland
+
+2009-2012
+
+Completed the core requirements of a BSc and took various science electives while working full-time at the NIH. 
+
+### The University of Vermont's Larner College of Medicine
+
+MD candidate.
+
+Burlington, Vermont
+
+2018-2021
+
+Worked full-time as a Bioinformatician for the first 18 months of school.
+
+
+
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Summer Fellowship
+
+Laboratory of Structural Biology under Dr. Alasdair Steven
+
+National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH
+
+2009
+
+- Cloned mutants of the fungal prion protein Het-s for analysis of structural motifs with electron microscopy.
+
+### Cancer Research Training Award Fellow
+
+Laboratory of Translational Genomics under Dr. Ludmila Prokunina-Olsson
+
+Division of Cancer Epidemiology and Genetics, National Cancer Institute, NIH
+
+2009-2012
+
+- Functional investigation of GWAS cancer signals associated with HCV-related traits and bladder cancer.
+
+### Research Scientist
+
+Bangkok Center of Excellence in Clinical Virology under Dr. Yong Poovorawan
+
+Faculty of Medicine, Chulalongkorn University
+
+2013-2014
+
+- Evolutionary analysis of SNPs and INDELs using various bioinformatics techniques and publicly available data sets such as ancient genomes and 1000 genomes data.
+
+### Research Scientist
+
+Genetics of Complex Diseases Group under Dr. Marta Alarcón Riquelme
+
+Pfizer-University of Granada-Junta de Andalucía Centre for Genomics and Oncological Research (GENYO)
+
+2015-2018
+
+- Part of a multi-national and multi-institutional project led by Dr. Marta Alarcón Riquelme to find clinically useful biomarkers for systemic autoimmune diseases (www.precisesads.eu). Also one of the leads of Spain's first CyTOF/Helios core facility.
+
+
+
+
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Head of Reporting and Recurrent Consultant
+
+CodoniXnotes EHR Software
+
+Codonix
+
+2014-Current
+
+::: concise
+- Data mining of Codonix’s terabyte-plus of patient data.
+- Implemented a sophisticated real-time reporting solution using Docker and R (Shiny).
+- Created a combined Guacamole-Docker application to serve Codonix's Java applet over HTML5.
+:::
+
+
+
+
+
+Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+### From noncoding variant to phenotype via SORT1 at the 1p13 cholesterol locus.
+
+*Nature*.
+
+N/A
+
+2010
+
+Musunuru K, Strong A, Frank-Kamenetsky M, Lee NE, Ahfeldt T, Sachs KV, Li X, Li H, Kuperwasser N, Ruda VM, Pirruccello JP, **Muchmore B**, Prokunina-Olsson L, Hall JL, Schadt EE, Morales CR, Lund-Katz S, Phillips MC, Wong J, Cantley W, Racie T, Ejebe KG, Orho-Melander M, Melander O, Koteliansky V, Fitzgerald K, Krauss RM, Cowan CA, Kathiresan S and Rader DJ.
+
+### IL28B rs12979860 genotype and spontaneous clearance of hepatitis C virus in a multi-ethnic cohort of injection drug users: evidence for a supra-additive association.
+
+*J. Infect. Dis*.
+
+N/A
+
+2011
+
+F. M. Shebl, R. M. Pfeiffer, D. Buckett, **B. Muchmore**, S. Chen, M. Dotrang, L. Prokunina-Olsson, B. R. Edlin and T. R. O’Brien.
+
+### Common genetic variants in the PSCA gene influence gene expression and bladder cancer risk. 
+
+*Proc. Natl. Acad. Sci. U.S.A.*
+
+N/A
+
+2012
+
+Y. P. Fu, I. Kohaar, N. Rothman, J. Earl, J. D. Figueroa, Y. Ye, N. Malats, W. Tang, L. Liu, M. Garcia-Closas, **B. Muchmore**, N. Chatterjee, M. Tarway, M. Kogevinas, P. Porter-Gill, D. Baris, A. Mumy, D. Albanes, M. P. Purdue, A. Hutchinson, A. Carrato, A. Tardon, C. Serra, R. Garcia-Closas, J. Lloreta, A. Johnson, M. Schwenn, M. R. Karagas, A. Schned, W. R. Diver, S. M. Gapstur, M. J. Thun, J. Virtamo, S. J. Chanock, J. F. Fraumeni, D. T. Silverman, X. Wu, F. X. Real and L. Prokunina-Olsson.
+
+### IL-29 is the dominant type III interferon produced by hepatocytes during acute hepatitis C virus infection. 
+
+*Hepatology.*
+
+N/A
+
+2012
+
+H. Park, E. Serti, O. Eke, **B. Muchmore**, L. Prokunina-Olsson, S. Capone, A. Folgori and B. Rehermann.
+
+### A variant upstream of IFNL3 (IL28B) creating a new interferon gene IFNL4 is associated with impaired clearance of hepatitis C virus. 
+
+*Nat. Genet.*
+
+N/A
+
+2013
+
+L. Prokunina-Olsson, **B. Muchmore**, W. Tang, R. M. Pfeiffer, H. Park, H. Dickensheets, D. Hergott, P. Porter-Gill, A. Mumy, I. Kohaar, S. Chen, N. Brand, M. Tarway, L. Liu, F. Sheikh, J. Astemborski, H. L. Bonkovsky, B. R. Edlin, C. D. Howell, T. R. Morgan, D. L. Thomas, B. Rehermann, R. P. Donnelly and T. R. O’Brien.
+
+### The 19q12 bladder cancer GWAS signal: association with cyclin E function and aggressive disease. 
+
+*Cancer Res.*
+
+N/A
+
+2014
+
+Y. P. Fu, I. Kohaar, L. E. Moore, P. Lenz, J. D. Figueroa, W. Tang, P. Porter-Gill, N. Chatterjee, A. Scott-Johnson, M. Garcia-Closas, **B. Muchmore**, D. Baris, A. Paquin, K. Ylaya, M. Schwenn, A. B. Apolo, M. R. Karagas, M. Tarway, A. Johnson, A. Mumy, A. Schned, L. Guedez, M. A. Jones, M. Kida, G. M. Hosain, N. Malats, M. Kogevinas, A. Tardon, C. Serra, A. Carrato, R. Garcia-Closas, J. Lloreta, X. Wu, M. Purdue, G. L. Andriole, R. L. Grubb, A. Black, M. T. Landi, N. E. Caporaso, P. Vineis, A. Siddiq, H. B. Bueno-de-Mesquita, D. Trichopoulos, B. Ljungberg, G. Severi, E. Weiderpass, V. Krogh, M. Dorronsoro, R. C. Travis, A. Tj?nneland, P. Brennan, J. Chang-Claude, E. Riboli, J. Prescott, C. Chen, I. De Vivo, E. Govannucci, D. Hunter, P. Kraft, S. Lindstrom, S. M. Gapstur, E. J. Jacobs, W. R. Diver, D. Albanes, S. J. Weinstein, J. Virtamo, C. Kooperberg, C. Hohensee, R. J. Rodabough, V. K. Cortessis, D. V. Conti, M. Gago-Dominguez, M. C. Stern, M. C. Pike, D. Van Den Berg, J. M. Yuan, C. A. Haiman, O. Cussenot, G. Cancel-Tassin, M. Roupret, E. Comperat, S. Porru, A. Carta, S. Pavanello, C. Arici, G. Mastrangelo, H. B. Grossman, Z. Wang, X. Deng, C. C. Chung, A. Hutchinson, L. Burdette, W. Wheeler, J. Fraumeni, S. J. Chanock, S. M. Hewitt, D. T. Silverman, N. Rothman and L. Prokunina-Olsson.
+
+### CymeR: cytometry analysis using KNIME, docker and R. 
+
+*Bioinformatics.*
+
+N/A
+
+2017
+
+**B. Muchmore** and M. E. Alarcon-Riquelme.
+
+### The IFN-λ4 Conundrum: When a Good Interferon Goes Bad.
+
+*J. Interferon Cytokine Res.*
+
+N/A
+
+2019
+
+O. O. Onabajo, **B. Muchmore** and L. Prokunina-Olsson.
+
+
+
+
+
+Awards {data-icon=award}
+--------------------------------------------------------------------------------
+
+### Patent
+
+Novel Interferon-Lambda 4 (IFNL4) Protein, Related Nucleic Acid Molecules, and Uses Thereof. 
+
+United States Government
+
+2012
+
+Ludmila Prokunina-Olsson, Thomas R. O’Brien, **Brian Muchmore** and Raymond P. Donnelly. 
+
+### License
+
+Technology E-217-2011/1 titled “Identification of a Novel Interferon-Analog (IFNAN) Human Protein That Impairs Spontaneous and Treatment-Induced Clearance of Hepatitis C Virus in Humans”
+
+United States Government
+
+2012
+
+Ludmila Prokunina-Olsson, Thomas R. O’Brien, **Brian Muchmore** and Raymond P. Donnelly. 
+
+
