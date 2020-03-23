@@ -3,7 +3,7 @@ title: "CymeR: cytometry analysis using KNIME, docker and R"
 date: 2017-03-01
 publishDate: 2019-07-10T21:03:15.797814Z
 authors: ["B. Muchmore", "M. E. Alarcon-Riquelme"]
-publication_types: ["2"]
+publication_types: ["3"]
 abstract: ""
 featured: false
 publication: "*Bioinformatics*"

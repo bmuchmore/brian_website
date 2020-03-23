@@ -2,14 +2,43 @@
 title: "Brian Muchmore's resume"
 author: Brian Muchmore
 date: "`r Sys.Date()`"
+knit: pagedown::chrome_print
 output:
   pagedown::html_resume:
     self_contained: false
 ---
 
 
+```{r, echo = FALSE}
+## https://github.com/rstudio/pagedown/issues/147
+## https://github.com/rstudio/pagedown/issues/50
+## https://stackoverflow.com/questions/51020181/r-markdown-hide-spoiler-text-hover-over-text-element
+##    - Use <p class="spoiler">Push Text Down</p> to create invisible text to push sections down as needed
+```
 
+```{css, echo = FALSE}
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+.break-after-me {
+  break-after: page;
+}
+.spoiler {
+  visibility: hidden;
+}
+```
 
+```{r, echo = FALSE}
+## Use `r pagebreak()` to force a pagebreak
+pagebreak <- function() {
+	if(knitr::is_latex_output()) return("\\newpage")
+	else if(knitr::is_html_output()) return('<div style="page-break-before: always;" />')
+	else return('<w:p><w:pPr><w:pageBreakBefore/></w:pPr></w:p>')
+}
+```
 
 Aside
 ================================================================================
@@ -124,7 +153,7 @@ Research Experience {data-icon=laptop}
 
 ### Summer Fellowship
 
-Laboratory of Structural Biology under Dr. Alasdair Steven
+Laboratory of Structural Biology; Dr. Alasdair Steven
 
 National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH
 
@@ -134,7 +163,7 @@ National Institute of Arthritis and Musculoskeletal and Skin Diseases, NIH
 
 ### Cancer Research Training Award Fellow
 
-Laboratory of Translational Genomics under Dr. Ludmila Prokunina-Olsson
+Laboratory of Translational Genomics; Dr. Ludmila Prokunina-Olsson
 
 Division of Cancer Epidemiology and Genetics, National Cancer Institute, NIH
 
@@ -144,7 +173,7 @@ Division of Cancer Epidemiology and Genetics, National Cancer Institute, NIH
 
 ### Research Scientist
 
-Bangkok Center of Excellence in Clinical Virology under Dr. Yong Poovorawan
+Bangkok Center of Excellence in Clinical Virology; Dr. Yong Poovorawan
 
 Faculty of Medicine, Chulalongkorn University
 
@@ -154,7 +183,7 @@ Faculty of Medicine, Chulalongkorn University
 
 ### Research Scientist
 
-Genetics of Complex Diseases Group under Dr. Marta Alarcón Riquelme
+Genetics of Complex Diseases Group; Dr. Marta Alarcón Riquelme
 
 Pfizer-University of Granada-Junta de Andalucía Centre for Genomics and Oncological Research (GENYO)
 
@@ -162,6 +191,7 @@ Pfizer-University of Granada-Junta de Andalucía Centre for Genomics and Oncolog
 
 - Part of a multi-national and multi-institutional project led by Dr. Marta Alarcón Riquelme to find clinically useful biomarkers for systemic autoimmune diseases (www.precisesads.eu). Also one of the leads of Spain's first CyTOF/Helios core facility.
 
+<p class="spoiler">Push Text Down</p>
 
 
 
@@ -182,6 +212,7 @@ Codonix
 - Implemented a sophisticated real-time reporting solution using Docker and R (Shiny).
 - Created a combined Guacamole-Docker application to serve Codonix's Java applet over HTML5.
 :::
+<p class="spoiler">Push Text Down</p>
 
 
 
@@ -228,7 +259,9 @@ N/A
 
 2012
 
-H. Park, E. Serti, O. Eke, **B. Muchmore**, L. Prokunina-Olsson, S. Capone, A. Folgori and B. Rehermann.
+H. Park, E. Serti, O. Eke, **B. Muchmore**, L. Prokunina-Olsson, S. Capone, A. Folgori and B. Rehermann. 
+
+<p class="spoiler">Push Text Down</p>
 
 ### A variant upstream of IFNL3 (IL28B) creating a new interferon gene IFNL4 is associated with impaired clearance of hepatitis C virus. 
 
@@ -260,6 +293,16 @@ N/A
 
 **B. Muchmore** and M. E. Alarcon-Riquelme.
 
+### Molecular Characterization of Monocyte Subsets Reveals Specific and Distinctive Molecular Signatures Associated With Cardiovascular Disease in Rheumatoid Arthritis.
+
+*Front Immunol.*
+
+N/A
+
+2019
+
+Ruiz-Limon P, Ortega-Castro R, Barbarroja N, Perez-Sanchez C, Jamin C, Patiño-Trives AM, Luque-Tevar M, Ibáñez-Costa A, Perez-Sanchez L, de la Rosa IA, Abalos-Aguilera M, Jimenez-Gomez Y, Calvo-Gutierrez J, Font P, Escudero-Contreras A, Alarcon-Riquelme ME, Collantes-Estevez E, López-Pedrera C; PRECISESADS Clinical Consortium and Flow Cytometry Study Group: Marañón C, Le Lann L, Varela N, **Muchmore B**, Dufour A, Alvarez EY, Carlo Montserrat Chizzolini C, De Langhe EN, Cl-P EY, Gerl V, De Groof A, Ducreux J, Trombetta E, Li T, Alvarez-Errico D, Rao S, Pers JO, Beretta L, AguilarQuesada R, Aguirre-Zamorano MA, Callejas Rubio JL, Castro-Villegas MC, Cervera R, Chizzolini C, Collantes E, Cornec D, De Langhe E, Devauchelle-Pensec V, Ae-C EY, Espinosa G, Fernández Roldán MC, Gomes Anjos T, Hiepe F, Jiménez Moleón I, Jousse-Joulin S, Lauwerys B, López-Berrio A, Lories R, Marovac J, Meroni PL, Miranda B, Navarro-Linares H, Ortega-Castro R, Ortego N, Pers JO, Ramón Garrido E, Raya E, Ríos Fernández R, Rodríguez-Pintó I, Saraux A.
+
 ### The IFN-λ4 Conundrum: When a Good Interferon Goes Bad.
 
 *J. Interferon Cytokine Res.*
@@ -270,12 +313,26 @@ N/A
 
 O. O. Onabajo, **B. Muchmore** and L. Prokunina-Olsson.
 
+<p class="spoiler">Push Text Down</p>
+
 
 
 
 
 Awards {data-icon=award}
 --------------------------------------------------------------------------------
+
+### License
+
+Technology E-217-2011/1 titled “Identification of a Novel Interferon-Analog (IFNAN) Human Protein That Impairs Spontaneous and Treatment-Induced Clearance of Hepatitis C Virus in Humans”
+
+United States Government
+
+2012
+
+Ludmila Prokunina-Olsson, Thomas R. O’Brien, **Brian Muchmore** and Raymond P. Donnelly. 
+
+<p class="spoiler">Push Text Down</p>
 
 ### Patent
 
@@ -287,14 +344,6 @@ United States Government
 
 Ludmila Prokunina-Olsson, Thomas R. O’Brien, **Brian Muchmore** and Raymond P. Donnelly. 
 
-### License
 
-Technology E-217-2011/1 titled “Identification of a Novel Interferon-Analog (IFNAN) Human Protein That Impairs Spontaneous and Treatment-Induced Clearance of Hepatitis C Virus in Humans”
-
-United States Government
-
-2012
-
-Ludmila Prokunina-Olsson, Thomas R. O’Brien, **Brian Muchmore** and Raymond P. Donnelly. 
 
 
