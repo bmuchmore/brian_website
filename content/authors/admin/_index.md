@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Researcher & Medical Student
+role: Researcher & Resident Physician
 
 # Organizations/Affiliations
 organizations:
-- name: The University of Vermont
+- name: The University of Michigan
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
