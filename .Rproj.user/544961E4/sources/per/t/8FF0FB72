@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "111415473",
+    "hash" : "302280400",
     "id" : "8FF0FB72",
-    "lastKnownWriteTime" : 1564613482,
-    "last_content_update" : 1564613482,
+    "lastKnownWriteTime" : 1585775523,
+    "last_content_update" : 1585775523824,
     "path" : "C:/Users/MediaPC/Desktop/brian_website/content/project/precise_dist/index.md",
     "project_path" : "content/project/precise_dist/index.md",
     "properties" : {
+        "cursorPosition" : "1,0",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

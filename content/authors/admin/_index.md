@@ -21,21 +21,25 @@ organizations:
 # bio: My research interests include supervised and unsupervised machine learning as well as real-time data analysis of electronic medical records.
 
 interests:
-- Machine Learning
-- Genomics
+- Clinical Genetics
+- Genomics Research
 - Untangling Autoimmune Diseases
+- Machine Learning/Pattern Recognition
 
 education:
   courses:
   - course: B.A. in Russian Studies
     institution: Bates College
     year: 2003
-  - course: B.S. in pre-med
+  - course: B.S. in Pre-med
     institution: University of Maryland, College Park
     year: 2011
-  - course: MD candidate
+  - course: M.D.
     institution: The University of Vermont
     year: 2021
+  - course: Pediatrics and Medical Genetics resident
+    institution: University of Michigan, Ann Arbor
+    year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -70,4 +74,4 @@ email: ""
 #- Visitors
 ---
 
-Hi, I am Brian, and this is my academic homepage. By the way, this is still a work in progress.
+Hi, I am Brian, and this is my academic homepage. Currently, I am a combined pediatrics-medical genetics resident at the University of Michigan, Ann Arbor with broad interests in the fields of genomics and machine learning.

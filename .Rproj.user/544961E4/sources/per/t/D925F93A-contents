@@ -1,12 +1,13 @@
 +++
+
 # Date this page was created.
 date = "2019-11-10"
 
 # Project title.
-title = "Real-time flu and flu shot tracking"
+title = "Real-time influenza and influenza tracking in the state of Vermont"
 
 # Project summary to display on homepage.
-summary = "A project whose goal is to be the first real-time flu and flu vaccine surveillance tool based on a combination of self-reported illness, validated clinic visits and confirmable EHR urgent-care visits."
+summary = "A project that links real-time survey results to a continuously updated website. It has been superceded by the CodoniX influenza and COVID-19 tracking project."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""

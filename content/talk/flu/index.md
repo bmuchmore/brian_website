@@ -5,7 +5,7 @@ title = "Real-time Flu Tracking"
 abstract = ""
 abstract_short = ""
 event = "Family Medicine Clerkship Presentation"
-event_url = "https://vigorous-borg-ae37fa.netlify.com/#1"
+event_url = "https://scholarworks.uvm.edu/cgi/viewcontent.cgi?article=1600&context=fmclerk"
 location = "South End Community Health Center"
 
 selected = true

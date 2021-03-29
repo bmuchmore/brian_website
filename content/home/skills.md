@@ -15,9 +15,15 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
+  icon = "diagnoses"
+  icon_pack = "fas"
+  name = "Medicine"
+  # description = "90%"
+  
+[[feature]]
+  icon = "dna"
+  icon_pack = "fas"
+  name = "Genomics"
   # description = "90%"
   
 [[feature]]
@@ -27,9 +33,21 @@ subtitle = ""
   # description = "100%"  
   
 [[feature]]
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "R"
+  # description = "90%"
+  
+[[feature]]
   icon = "docker"
   icon_pack = "fab"
   name = "Docker"
+  # description = "10%"
+  
+[[feature]]
+  icon = "desktop"
+  icon_pack = "fas"
+  name = "Guacamole"
   # description = "10%"
 
 +++
