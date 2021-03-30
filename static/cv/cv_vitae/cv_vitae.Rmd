@@ -75,6 +75,7 @@ library(stringr)
 ```{r}
 tribble(
   ~Degree, ~Year, ~Institution, ~Where,
+  "Resident", "06/2021-present", "University of Michigan Combined Pediatrics-Medical Genetics Program", "Ann Arbor, Michigan",
   "M.D.", "08/2017-05/2021", "Robert Larner, M.D., College of Medicine at the University of Vermont", "Burlington, Vermont",
   "B.S. in Pre-medicine", "09/2009-09/2012", "University of Maryland", "College Park, Maryland",
   "B.A. in Russian Studies", "08/2002-06/2006", "Bates College", "Lewiston, Maine"
@@ -138,7 +139,7 @@ tribble(
 ```{r}
 tribble(
   ~Degree, ~Year, ~Institution, ~Where,
-    "Research Fellow at GENyO in the laboratory of Dr. Marta Alarcón-Riquelme", "01/2015-01/2019", "Lead bioinformatician for the PRECISESADS Flow Cytometry Study Group, which was a subgroup of a multi-national andmulti-institutional project to find clinically useful biomarkers for systemic autoimmune diseases. Also, lead bioinformatician andco-laboratory leader of Spain’s first CyTOF/Helios core facility", "Granada, Spain",
+    "Research Fellow at GENyO in the laboratory of Dr. Marta Alarcón-Riquelme", "01/2015-01/2019", "Lead bioinformatician for the PRECISESADS Flow Cytometry Study Group, which was a subgroup of a multi-national and multi-institutional project to find clinically useful biomarkers for systemic autoimmune diseases. Also, lead bioinformatician and co-laboratory leader of Spain’s first CyTOF/Helios core facility", "Granada, Spain",
   "CyTOF/CODEX Course Attendee", "05/2018-05/2018", "Was a participant in the 2018 CyTOF/CODEX mini-course held by the Nolan laboratory at Stanford University in order to help set-up Spain's first CyTOF/Helios core facility. Airfare, accommodation and training fees were provided by the PRECISESADS project", "Palo Alto, California",
   "Research Fellow at Chulalongkorn University in the laboratory of Dr. Yong Poovorawan", "01/2013-01/2014", "Evolutionary analysis of SNPs and INDELs using ancient genomes and 1000 genomes data", "Bangkok, Thailand",
   "Cancer Research Training Award Fellow at the National Institutes of Health in the laboratory of Dr. Ludmila Prokunina-Olsson", "09/2009-09/2012", "Functional investigation of GWAS cancer signals associated with HCV-related traits and bladder cancer", "Bethesda, Maryland",

@@ -1,0 +1,228 @@
+---
+name: Brian
+surname: Muchmore
+profilepic: avatar.jpg
+position: "Resident Physician"
+aboutme: "Resident in the combined Pediatrics-Medical Genetics program at the University of Michigan, Ann Arbor."
+address: "University of Michigan, Ann Arbor"
+phone: 240-408-6061
+www: brianmuchmore.com
+email: "bmuchmore@gmail.com"
+github: bmuchmore
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 3873B3
+docname: CV/Resume
+output: vitae::moderncv
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(dplyr)
+library(RefManageR)
+library(readr)
+library(stringr)
+```
+
+```{r, include = FALSE}
+# muchmore_b_pubmed <- ReadPubMed("Muchmore B", database = "PubMed")
+# other_pubmed <- ReadPubMed("A cytokine network profile delineates a common", database = "PubMed")
+# bm_pubmed <- append(muchmore_b_pubmed, other_pubmed)
+# bm_pubmed_latex <- toBibtex(bm_pubmed)
+# write_lines(bm_pubmed_latex, "C:/Users/MediaPC/Desktop/cv_vitae/raw.bib")
+# bib_entry <- ReadBib("C:/Users/MediaPC/Desktop/cv_vitae/raw.bib", check = FALSE)
+# bib_df <- as.data.frame(bib_entry)
+# corrected_bib_df <- bib_df %>%
+#   mutate(author = str_replace_all(.[["author"]], "c\\(", "")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\)", "")) %>%
+#   mutate(author = str_replace_all(.[["author"]], '\\"', "")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\{", "")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\}", "")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\\\", "")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\Ã\\³", "o")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\Ã\\¡", "a")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\Ã\\º", "u")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\Ã", "i")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\i\\±", "n")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\i\\¶", "o")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "\\i\\«", "e")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "i\\©", "e")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "i\\¨", "e")) %>%
+#   mutate(author = str_replace_all(.[["author"]], "'", "-")) %>%
+#   mutate(journal = str_replace_all(.[["journal"]], "\\s*\\([^\\)]+\\)", "")) %>%
+#   mutate(journal = str_replace_all(.[["journal"]], ":.*", "")) %>%
+#   mutate(title = str_replace_all(.[["title"]], "\\Ã\\Ž\\Â\\»", "L")) %>%
+#   arrange(desc(year))
+# bib_df_authorships <- corrected_bib_df %>%
+#   slice(-1, -2, -4, -5, -7) %>%
+#   as.BibEntry()
+# bib_df_collaborations <- corrected_bib_df %>%
+#   slice(1, 2, 4, 5, 7) %>%
+#   as.BibEntry()
+# WriteBib(bib_df_authorships, file = "C:/Users/MediaPC/Desktop/cv_vitae/brian_authorships.bib")
+# WriteBib(bib_df_collaborations, file = "C:/Users/MediaPC/Desktop/cv_vitae/brian_collaborations.bib")
+```
+
+# Skills
+
+ * 10,000+ hours of laboratory bench work experience.
+ * 10,000+ hours of data science experience with working proficiency in R, Bash, and Python.
+ * Professional proficiency using Docker, Traefik and Guacamole.
+
+# Education
+
+```{r}
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where,
+  "Resident", "06/2021-present", "University of Michigan Combined Pediatrics-Medical Genetics Program", "Ann Arbor, Michigan",
+  "M.D.", "08/2017-05/2021", "Robert Larner, M.D., College of Medicine at the University of Vermont", "Burlington, Vermont",
+  "B.S. in Pre-medicine", "09/2009-09/2012", "University of Maryland", "College Park, Maryland",
+  "B.A. in Russian Studies", "08/2002-06/2006", "Bates College", "Lewiston, Maine"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Lapses in Training
+
+```{r}
+tribble(
+  ~Institution, ~Where,
+  "Period between medical school graduation and the beginning of residency", "05/24/2021-06/20/2021"
+) %>% 
+  detailed_entries(Institution, Where)
+```
+
+# Awards
+
+```{r}
+tribble(
+  ~Year, ~Desc,
+  "05/2020", "Jerold and Ingela Lucey Early Career Investigator Prize for Innovations in Infant or Child Health"
+) %>% 
+  detailed_entries(Desc, Year)
+```
+
+# Certification/Licensure
+
+```{r}
+tribble(
+  ~Year, ~Type,
+  "Basic Life Support", "10/2018",
+  "Advanced Cardiovascular Life Support", "11/2021"
+) %>% 
+  detailed_entries(Year, Type)
+```
+
+# Volunteer Experience
+
+```{r}
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where,
+  "Camp Fantastic", "08/2012-08/2016", "Volunteer at a sleep-away camp for children with cancer, which is sponsored by the NIH and run by the organization Special Love", "Front Royal, Virginia"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Work Experience
+
+```{r}
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where,
+  "CodoniX", "01/2016-01/2021", "Real-time reporting and data mining of Codonix’s terabyte-plus of patient data", "Potomac, Maryland"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Research Experience
+
+```{r}
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where,
+    "Research Fellow at GENyO in the laboratory of Dr. Marta Alarcón-Riquelme", "01/2015-01/2019", "Lead bioinformatician for the PRECISESADS Flow Cytometry Study Group, which was a subgroup of a multi-national and multi-institutional project to find clinically useful biomarkers for systemic autoimmune diseases. Also, lead bioinformatician and co-laboratory leader of Spain’s first CyTOF/Helios core facility", "Granada, Spain",
+  "CyTOF/CODEX Course Attendee", "05/2018-05/2018", "Was a participant in the 2018 CyTOF/CODEX mini-course held by the Nolan laboratory at Stanford University in order to help set-up Spain's first CyTOF/Helios core facility. Airfare, accommodation and training fees were provided by the PRECISESADS project", "Palo Alto, California",
+  "Research Fellow at Chulalongkorn University in the laboratory of Dr. Yong Poovorawan", "01/2013-01/2014", "Evolutionary analysis of SNPs and INDELs using ancient genomes and 1000 genomes data", "Bangkok, Thailand",
+  "Cancer Research Training Award Fellow at the National Institutes of Health in the laboratory of Dr. Ludmila Prokunina-Olsson", "09/2009-09/2012", "Functional investigation of GWAS cancer signals associated with HCV-related traits and bladder cancer", "Bethesda, Maryland",
+  "Research Internship at the National Institutes of Health in the laboratory of Dr. Alasdair Steven", "05/2009-09/2009", "Cloned mutants of the fungal prion protein Het-s for analysis of structural motifs with electron microscopy", "Bethesda, Maryland",
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Publications
+
+```{r}
+bibliography_entries("brian_authorships.bib") %>%
+  arrange(desc(issued))
+```
+
+# PRECISESADS Flow Cytometry Study Group Collaborations
+
+```{r}
+bibliography_entries("brian_collaborations.bib") %>%
+  arrange(desc(issued))
+```
+
+# Poster Presentations
+
+```{r}
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where,
+  "Muchmore, B., Le Lann, L., Jamin, C., consortium PRECISESADS, Marañon, C., Pers, J.O., & Alarcon-Riquelme, M.E.", "03/2017 Annals of the Rheumatic Diseases", "02.16 Machine learning of flow cytometry data encompassing seven systemic autoimmune diseases and controls.", "Athens, Greece",
+    "Muchmore, B., Tang, W., Porter-Gill, P., Kohaar, I., Liu, L., Brand, N., Park, H., Dickensheets, H., Sheikh, F., Rehermann, B.,Donnelly, RP., O'Brien, T.R., & Prokunina-Olsson L.", "09/2013 International Cytokine and Interferon Society", "182 : Identification and characterization of interferon-lambda-4 (IFN-lambda-4), a novel class-2 cytokine which impairs clearance of hepatitis C virus", "San Francisco, California",
+  "Muchmore, B., Park, H., Dickensheets, H., O'Brien, T. R., Rehermann, B., Donnelly, R., & Prokunina-Olsson L.", "04/2011 AACR 102nd Annual Meeting", "Abstract 3751: Expression analysis of the IL28A, IL28B, IL29 and IL28L genes in primary human peripheral blood mononuclear cells and hepatocytes: Effects of activation mode, time-course and genotypes", "Orlando, Florida"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Oral Presentations
+
+```{r}
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where,
+    "University of Vermont Pediatric Grand Rounds", "05/2020", "Real-time monitoring of influenza and COVID-19 in urgent cares across the United States", "Burlington, Vermont",
+  "PRECISESADS General Assembly", "03/2017", "Real-time machine learning of OMICS data", "Suresnes, Spain",
+  "Conference of Complex Diseases", "03/2016", "CymeR: Cytometry analysis using KNIME, Docker and R.", "Granada, Spain",
+  "KNIME Spring Summit", "02/2016", "Dockerizing KNIME - Recipes for a KNIME cocktail", "Berlin, Germany"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Hobbies & Interests
+
+```{r}
+tribble(
+  ~Hobby,
+  "Woodworking, aquaponics, soccer and the R programming language."
+) %>% 
+  brief_entries(
+    Hobby
+  )
+```
+
+# Language Fluency
+
+```{r}
+tribble(
+  ~Language, ~Language_Proficiency, ~Proficiency_Description,
+  "English", "Native", "I converse easily and accurately in all types of situations.",
+  "Russian", "Basic", "I speak the language imperfectly and only to a limited degree and in limited situations.",
+  "Spanish", "Basic", "I speak the language imperfectly and only to a limited degree and in limited situations.",
+  "Thai", "Basic", "I speak the language imperfectly and only to a limited degree and in limited situations."
+) %>% 
+  brief_entries(
+    Language,
+    Language_Proficiency,
+    Proficiency_Description
+  )
+```
+
+# Other Awards/Accomplishments
+
+```{r}
+tribble(
+  ~Degree, ~Year, ~Institution, ~Where,
+  "Patent", "01/2020", "NOVEL INTERFERON-(lambda)-4 (IFNL-4) PROTEIN, RELATED NUCLEIC ACID MOLECULES, AND USESTHEREOF.", "Ref: E-217-2011-1. U.S. Pat: 10,545,147"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+

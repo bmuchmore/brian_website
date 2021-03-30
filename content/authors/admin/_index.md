@@ -28,18 +28,18 @@ interests:
 
 education:
   courses:
-  - course: B.A. in Russian Studies
-    institution: Bates College
-    year: 2003
-  - course: B.S. in Pre-med
-    institution: University of Maryland, College Park
-    year: 2011
+  - course: Combined Pediatrics-Medical Genetics resident
+    institution: University of Michigan, Ann Arbor
+    year: 2025
   - course: M.D.
     institution: The University of Vermont
     year: 2021
-  - course: Pediatrics and Medical Genetics resident
-    institution: University of Michigan, Ann Arbor
-    year: 2025
+  - course: B.S. in Pre-med
+    institution: University of Maryland, College Park
+    year: 2011
+  - course: B.A. in Russian Studies
+    institution: Bates College
+    year: 2003
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
