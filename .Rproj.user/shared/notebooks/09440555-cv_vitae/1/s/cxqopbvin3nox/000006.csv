@@ -1,0 +1,50 @@
+"0","muchmore_b_pubmed <- ReadPubMed(""Muchmore B"", database = ""PubMed"")
+other_pubmed <- ReadPubMed(""A cytokine network profile delineates a common"", database = ""PubMed"")
+bm_pubmed <- append(muchmore_b_pubmed, other_pubmed)
+bm_pubmed_latex <- toBibtex(bm_pubmed)
+write_lines(bm_pubmed_latex, ""C:/Users/MediaPC/Desktop/cv_vitae/raw.bib"")
+bib_entry <- ReadBib(""C:/Users/MediaPC/Desktop/cv_vitae/raw.bib"", check = FALSE)
+bib_df <- as.data.frame(bib_entry)
+corrected_bib_df <- bib_df %>%
+  mutate(author = str_replace_all(.[[""author""]], ""c\\("", """")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\)"", """")) %>%
+  mutate(author = str_replace_all(.[[""author""]], '\\""', """")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\{"", """")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\}"", """")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\\\"", """")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\Ã\\³"", ""o"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\Ã\\¡"", ""a"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\Ã\\º"", ""u"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\Ã"", ""i"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\i\\±"", ""n"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\i\\¶"", ""o"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], "" \\ó"", ""to I"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\i\\«"", ""e"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""i\\©"", ""e"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""i\\¨"", ""e"")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""\\¯"", """")) %>%
+  mutate(author = str_replace_all(.[[""author""]], ""'"", ""-"")) %>%
+  mutate(journal = str_replace_all(.[[""journal""]], ""\\s*\\([^\\)]+\\)"", """")) %>%
+  mutate(journal = str_replace_all(.[[""journal""]], "":.*"", """")) %>%
+  mutate(title = str_replace_all(.[[""title""]], ""\\Ã\\Ž\\Â\\»"", ""L"")) %>%
+  mutate(title = str_replace_all(.[[""title""]], ""\\Ã\\ƒ\\Â\\¶"", ""o"")) %>%
+  mutate(title = str_replace_all(.[[""title""]], ""\\'"", """")) %>%
+  arrange(desc(year))
+bib_df_authorships <- corrected_bib_df %>%
+  slice(-1, -2, -3, -4, -6, -7, -9) %>%
+  as.BibEntry()
+bib_df_collaborations <- corrected_bib_df %>%
+  slice(1, 2, 3, 4, 6, 7, 9) %>%
+  slice(-4) %>%
+  as.BibEntry()
+WriteBib(bib_df_authorships, file = ""C:/Users/MediaPC/Desktop/cv_vitae/brian_authorships.bib"")
+"
+"2","Writing 9 Bibtex entries ... "
+"2","OK
+Results written to file ‘C:/Users/MediaPC/Desktop/cv_vitae/brian_authorships.bib’
+"
+"0","WriteBib(bib_df_collaborations, file = ""C:/Users/MediaPC/Desktop/cv_vitae/brian_collaborations.bib"")"
+"2","Writing 6 Bibtex entries ... "
+"2","OK
+Results written to file ‘C:/Users/MediaPC/Desktop/cv_vitae/brian_collaborations.bib’
+"
