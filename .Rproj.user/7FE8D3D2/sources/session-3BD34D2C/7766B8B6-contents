@@ -1,0 +1,152 @@
+---
+
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: ["iframe.css"]
+    nature:
+      countdown: 60000
+      highlightLines: true
+
+---
+
+class: inverse, center, middle, title-slide
+background-image: url(pictures/featured.jpg)
+background-size: contain
+background-position: 50% 100%
+background-size: 100%
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">No Programming Required: Bioinformatics for the Busy Clinical Geneticist</font></code>
+
+```{r include = FALSE}
+library(xaringanthemer)
+library(xaringanExtra)
+```
+
+```{r xaringan-themer, include = FALSE}
+mono_accent_inverse(base_color = "#3C989E")
+```
+
+```{r xaringan-logo, echo = FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://pbs.twimg.com/profile_images/1181233629671739392/ApsjjVAj_400x400.jpg",
+  position = css_position(top = "0.25em", right = "0em"),
+  link_url = "https://medicine.umich.edu/dept/pediatrics/divisions/genetics-metabolism-genomic-medicine",
+  width = "43px",
+  height = "43px",
+  exclude_class = c("title-slide", "hide_logo")
+)
+```
+
+```{r xaringanExtra, echo = FALSE}
+xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
+```
+
+---
+
+<iframe src="https://symphonious-sorbet-3843c8.netlify.app/" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+  
+---
+
+class: inverse, center, middle
+background-image: url(pictures/wes.jpg)
+background-size: contain
+background-position: 50% 50%
+background-size: 75%
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">The question: Can you tell me more about this variant of unknown significance?</font></code>
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">Common or rare?</font></code>
+
+<iframe src="http://marrvel.org/human/variant/22:20049074%20C%3ET" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">Common or rare?</font></code>
+
+<a href="http://marrvel.org/human/variant/22:20049074%20C%3ET" target="_self">MARRVEL</a>
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">Variant Impact/Type</font></code>
+
+<iframe src="https://wintervar.wglab.org/" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">From Phenotype to Genotype and Back</font></code>
+
+<iframe src="https://amelie.stanford.edu/submit" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">In LD with Unsequenced Variants?</font></code>
+
+<iframe src="http://topld.genetics.unc.edu/" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">In-silico predictions: Splicing</font></code>
+
+<iframe src="https://spliceailookup.broadinstitute.org/#variant=chr22-20049074-C-T&hg=37&distance=50&mask=0&precomputed=0" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">In-silico predictions: Variant Effect</font></code>
+
+<iframe src="http://database.liulab.science/dbNSFP" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">Residue/Domain? Hotspot?</font></code>
+
+<iframe src="https://www.uniprot.org/uniprotkb/Q6ICL3/entry" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">Variant effect functionally studied?</font></code>
+
+<iframe src="https://www.ncbi.nlm.nih.gov/research/litsense/?view=docsum&query=%22TANGO2%22%20c.473C%3ET%20p.(A158V)%20rs756778501&filter=&t=1671040333013" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">Interpretation Database</font></code>
+
+<iframe src="https://www.deciphergenomics.org/gene/TANGO2/patient-overlap/snvs" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+---
+
+#### <code><font color="black"; style="position:fixed; top:1%; left: 50%; transform: translateX(-50%)">Previously reported cases?</font></code>
+
+<iframe src="https://olida.ibsquare.be" style="position:fixed; top:93; left:0; bottom:0; right:0; width:100%; height:93%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
+    Your browser doesn't support iframes
+</iframe> 
+
+
+
+
+
+
+
